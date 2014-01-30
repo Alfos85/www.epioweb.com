@@ -1,4 +1,5 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+//Текст на русском
 $APPLICATION->SetTitle("");?><?$APPLICATION->IncludeComponent("bitrix:catalog.section.list", "kar_services", Array(
 	"IBLOCK_TYPE" => "FAVA_SERVICES",	// Тип инфоблока
 	"IBLOCK_ID" => "4",	// Инфоблок
