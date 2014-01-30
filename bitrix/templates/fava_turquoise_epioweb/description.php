@@ -1,0 +1,1 @@
+<?$arTemplate = array("NAME"=>"EPIOWEB", "DESCRIPTION"=>"Адаптивный и легкий шаблон");?>

@@ -1,0 +1,146 @@
+/**Top menu**/
+#horizontal-multilevel-menu,#horizontal-multilevel-menu ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+/*Links*/
+#horizontal-multilevel-menu a {
+	text-decoration: none;
+	color: #555;
+}
+#horizontal-multilevel-menu li {
+	float:left;
+	margin:0 15px;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+/*Root items*/
+#horizontal-multilevel-menu li a.root-item{
+	color:#555;
+}
+
+.multi-select {
+	display: inline-block;
+	width: 16px;
+	height: 9px;
+	background: url(images/multi-select.png) no-repeat;
+	margin-left: 5px;
+}
+/*Root menu selected*/
+#horizontal-multilevel-menu li a.root-item-selected{
+	color:#888;
+}
+#horizontal-multilevel-menu li ul li {
+	line-height: 3.6em;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	font-size: 1em;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-right: 15px;
+	background: #fff;
+}
+/*Child-items selected*/
+#horizontal-multilevel-menu li.item-selected{
+	color: #888;
+}
+#horizontal-multilevel-menu li ul li.item-selected, #horizontal-multilevel-menu li ul li.item-selected a{
+	color: #eee;
+	background: #444;
+}
+#horizontal-multilevel-menu a.parent {
+	color: #ff0000;
+}
+/*Sub-menu box*/
+#horizontal-multilevel-menu li ul{
+	position:absolute;
+	top:auto;
+    margin-left: -27px;
+	display:none;
+	z-index:500;
+	height:auto;
+	width:280px;
+	background:#fff;
+	box-shadow: 0 27px 30px rgba(0,0,0,0.2);
+}
+/*Sub-menu item box*/
+#horizontal-multilevel-menu li li {
+	width:100%;
+	border-bottom:1px solid #eee;
+    margin: 0;
+    text-indent: 25px;
+}
+/*Item link*/
+#horizontal-multilevel-menu li ul a{
+	text-align:left;
+}
+/*Items text color & size */
+#horizontal-multilevel-menu li a,
+#horizontal-multilevel-menu li:hover li a,
+#horizontal-multilevel-menu li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li.jshover li a{
+	color:#444;
+}
+/*Items text color & size: hover*/
+#horizontal-multilevel-menu li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover a,
+#horizontal-multilevel-menu li:hover li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover a
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li.jshover a
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li.jshover li.jshover a{
+	color:#fff;
+}
+#horizontal-multilevel-menu li ul ul{
+	margin: 0;
+}
+#horizontal-multilevel-menu li:hover ul ul,
+#horizontal-multilevel-menu li.jshover ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul ul ul{
+	/*top:-999em;*/
+	display:none;
+}
+#horizontal-multilevel-menu li:hover ul,
+#horizontal-multilevel-menu li.jshover ul,
+#horizontal-multilevel-menu li li:hover ul,
+#horizontal-multilevel-menu li li.jshover ul,
+#horizontal-multilevel-menu li li li:hover ul,
+#horizontal-multilevel-menu li li li.jshover ul,
+#horizontal-multilevel-menu li li li li:hover ul,
+#horizontal-multilevel-menu li li li li.jshover ul,
+#horizontal-multilevel-menu li li li li li:hover ul,
+#horizontal-multilevel-menu li li li li li.jshover ul{
+	/*z-index:1000;
+	top:auto;*/
+	display:block;
+}
+div.menu-clear-left{
+	clear:left;
+}
+#small-nav {
+	display: none;
+	width: 80px;
+	height: 35px;
+	border-radius: 4px;
+	border: solid 1px #ccc;
+	font-size: 1em;
+	color: #444;
+}

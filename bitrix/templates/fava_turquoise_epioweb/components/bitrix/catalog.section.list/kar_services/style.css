@@ -1,0 +1,18 @@
+#gx-anonsus {width: 100%; margin: 2em auto; text-align: center;}
+.gx-anons {width: 30%; padding: 15px 1.4% 25px 1.4%; text-align: center; display: inline-block; vertical-align: top;}
+.gx-anons-img {margin: 0 18%;}
+#gx-anonsus img {max-width: 100%; height: auto; width: auto\9; border: none;}
+
+@media screen and (max-width: 980px) {
+
+#gx-anonsus {width: 95%;}
+.gx-anons {width: 45%;}
+
+}
+
+@media screen and (max-width: 650px) {
+
+#gx-anonsus {width: 95%;}
+.gx-anons {width: 90%;}
+
+}

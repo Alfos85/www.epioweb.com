@@ -1,0 +1,113 @@
+/* This style color TURQUOISE #30d5c8 */
+
+/* LINKS */
+a:link {
+	color: #30d5c8;
+}
+a:visited {
+	color: #30d5c8;
+}
+a:hover {
+	color: #36e0d3;
+}
+/* HEADER */
+header {
+	border-top: solid 4px #30d5c8;
+}
+hr {
+	background: #30d5c8;
+}
+.hr {
+	background: #30d5c8;
+}
+.header-hr-min-blu {
+	background: #30d5c8;
+}
+/* HOME */
+h1.home-services-title {
+	color: #30d5c8;
+}
+.hr-min {
+	background: #30d5c8;
+}
+#video h1 {
+	color: #30d5c8;
+}
+.video-overflow {
+	background: #30d5c8 url(images/video-over-run.png) no-repeat center center;
+	border: dashed 1px #fff;
+}
+.video-over-button-in {
+	background: #30d5c8;
+}
+.video-run-hover {
+	background: url(images/video-over-run-hover.png) no-repeat center center;
+}
+/* CONTENT */
+#content h1, .service-left h1, .service-right h1 {
+	color: #30d5c8;
+}
+/* CONTACTS */
+.contacts-header-title {
+	color: #30d5c8;
+}
+.request-block h2 {
+	color: #30d5c8;
+}
+/* INCLUDES */
+.request-button {
+	border: solid 1px #30d5c8;
+}
+.request-button:hover {
+	border: dashed 1px #fff;
+	background: #30d5c8 url(images/bright-squares.png);
+}
+/* FORM */
+.submit-button {
+	background: #30d5c8;
+    box-shadow: 0px 6px 0px #008c81;
+}
+.submit-button:active {
+	background: #36e0d3;
+    box-shadow: 0px 3px 0px #00ab9e;
+}
+.submit-button:hover {
+	background: #36e0d3;
+    box-shadow: 0px 6px 0px #00ab9e;
+}
+/* TOP MENU */
+#horizontal-multilevel-menu li:hover a.root-item, #horizontal-multilevel-menu li.jshover a.root-item{
+	color:#30d5c8;
+}
+#horizontal-multilevel-menu li ul li:hover, #horizontal-multilevel-menu li ul li.jshover{
+	background: #30d5c8;
+}
+/* LEFT MENU */
+ul.left-menu li:hover{
+	background: #30d5c8;
+}
+/* CONTENT */
+#service-header, #solutions-header, #company-header {
+	background: url(images/carbon-fibre.png);
+}
+/* FOOTER */
+#footer {
+	background: url(images/wowen.png);
+	color: #eee;
+}
+#footer a:link, #footer a:visited {
+	color: #eee;
+}
+#footer a:hover {
+	color: #fff;
+}
+/* PORTFOLIO */
+.s-over {
+	background: rgba(48,213,200,0.4);
+}
+.s-over-more {
+	background: #30d5c8;
+}
+#anonsus-nav a:hover {
+	color: #30d5c8;
+}

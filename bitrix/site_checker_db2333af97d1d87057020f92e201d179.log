@@ -1,0 +1,233 @@
+2013-Dec-04 14:25:37 Наличие необходимых модулей php (check_php_modules): Ok
+Успешно
+2013-Dec-04 14:25:37 Обязательные параметры PHP (check_php_settings): Ok
+Успешно
+2013-Dec-04 14:25:38 Значения переменных сервера (check_server_vars): Ok
+Успешно
+2013-Dec-04 14:25:38 Модуль suhosin отключен (check_suhosin): Ok
+Успешно
+2013-Dec-04 14:25:38 Модули веб сервера (check_security): Ok
+Успешно
+2013-Dec-04 14:25:38 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Успешно
+2013-Dec-04 14:25:39 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Успешно. Сайт работает в UTF кодировке
+2013-Dec-04 14:25:39 Установка параметра pcre.backtrack_limit (check_backtrack_limit): Ok
+Успешно
+2013-Dec-04 14:25:39 Размер стека и pcre.recursion_limit (check_pcre_recursion): Warning
+Возможны проблемы в работе с длинными строками из-за системных ограничений
+2013-Dec-04 14:25:45 Вызов method_exists на строке (check_method_exists): Ok
+Успешно
+2013-Dec-04 14:25:45 Настройки сайтов (check_sites): Ok
+Успешно
+2013-Dec-04 14:25:45 Работа с сокетами (check_socket): Ok
+Connection to epioweb.com:80
+Успешно
+2013-Dec-04 14:25:47 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Успешно
+2013-Dec-04 14:25:48 Загрузка файла (check_upload): Ok
+Успешно
+2013-Dec-04 14:25:49 Загрузка файла больше 4Мб (check_upload_big): Ok
+Успешно
+2013-Dec-04 14:25:49 Загрузка файла через php://input (check_upload_raw): Ok
+Успешно
+2013-Dec-04 14:25:50 Передача POST запроса с большим числом параметров (check_post): Ok
+Успешно
+2013-Dec-04 14:25:50 Отправка почты (check_mail): Ok
+
+Warning: mail(/tmp/php-mail.log): failed to open stream: Permission denied in /home/epio/www-data/bitrix/modules/main/admin/site_checker.php on line 1313
+
+Успешно
+2013-Dec-04 14:25:51 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+
+Warning: mail(/tmp/php-mail.log): failed to open stream: Permission denied in /home/epio/www-data/bitrix/modules/main/admin/site_checker.php on line 1313
+
+Успешно
+2013-Dec-04 14:25:51 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2013-Dec-04 14:25:52  (check_groupdav): Warning
+
+Warning: call_user_func() expects parameter 1 to be a valid callback, class 'CSiteCheckerTest' does not have a method 'check_groupdav' in /home/epio/www-data/bitrix/modules/main/admin/site_checker.php on line 1161
+
+Ошибка
+2013-Dec-04 14:25:52 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+2013-Dec-04 14:25:52 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Успешно
+2013-Dec-04 14:25:53 Фактическое ограничение памяти (check_memory_limit): Ok
+14% done
+2013-Dec-04 14:25:53 Фактическое ограничение памяти (check_memory_limit): Ok
+28% done
+2013-Dec-04 14:25:54 Фактическое ограничение памяти (check_memory_limit): Ok
+42% done
+2013-Dec-04 14:25:54 Фактическое ограничение памяти (check_memory_limit): Ok
+57% done
+2013-Dec-04 14:25:55 Фактическое ограничение памяти (check_memory_limit): Ok
+71% done
+2013-Dec-04 14:25:56 Фактическое ограничение памяти (check_memory_limit): Ok
+85% done
+
+== Request ==
+GET /bitrix/admin/site_checker.php?test_type=memory_test&unique_id=e57e4913856fa41b8d7968a28d333e7c&max=511 HTTP/1.1
+Host: epioweb.com
+
+
+== Response ==
+HTTP/1.1 200 OK
+Connection: Keep-Alive
+Content-Length: 175
+Date: Wed, 04 Dec 2013 11:25:55 GMT
+Content-Type: text/html
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.4-14+deb7u4
+Vary: Accept-Encoding
+
+== Body ==
+
+Fatal error: Allowed memory size of 536870912 bytes exhausted (tried to allocate 1048577 bytes) in /home/epio/www-data/bitrix/modules/main/admin/site_checker.php on line 111
+
+==========
+2013-Dec-04 14:25:56 Фактическое ограничение памяти (check_memory_limit): Ok
+Не менее 384 М
+2013-Dec-04 14:25:57 Сохранение сессии (check_session): Ok
+50% done
+2013-Dec-04 14:25:57 Сохранение сессии (check_session): Ok
+Успешно
+2013-Dec-04 14:25:57 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+2013-Dec-04 14:25:57 Сохранение сессии без UserAgent (check_session_ua): Ok
+Успешно
+2013-Dec-04 14:25:58 Работа с файлами кеша (check_cache): Ok
+Успешно
+2013-Dec-04 14:26:00 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2013-Dec-04 14:26:01 HTTP авторизация (check_http_auth): Ok
+Успешно
+2013-Dec-04 14:26:01 Создание и запуск файла (check_exec): Ok
+Успешно
+2013-Dec-04 14:26:01 Константа BX_CRONTAB (не должна быть определена) (check_bx_crontab): Ok
+Успешно
+2013-Dec-04 14:26:02 Разделитель дробной части (check_divider): Ok
+Успешно
+2013-Dec-04 14:26:02 Значение параметра precision (не менее 10) (check_precision): Ok
+Успешно
+2013-Dec-04 14:26:02 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2013-Dec-04 14:26:02 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2013-Dec-04 14:26:03 Версия MySQL сервера (check_mysql_bug_version): Ok
+Успешно
+2013-Dec-04 14:26:04 Время на БД и веб сервере (check_mysql_time): Ok
+Успешно
+2013-Dec-04 14:26:04 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2013-Dec-04 14:26:04 Значение auto_increment в MySQL (check_mysql_increment): Ok
+Успешно
+2013-Dec-04 14:26:05 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2013-Dec-04 14:26:05 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=utf8, COLLATION=utf8_unicode_ci
+Успешно
+2013-Dec-04 14:26:05 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2013-Dec-04 14:26:10 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2013-Dec-04 14:26:19 Структура базы данных (check_mysql_table_structure): Ok
+2% done
+2013-Dec-04 14:26:20 Структура базы данных (check_mysql_table_structure): Ok
+4% done
+2013-Dec-04 14:26:25 Структура базы данных (check_mysql_table_structure): Ok
+6% done
+2013-Dec-04 14:26:28 Структура базы данных (check_mysql_table_structure): Ok
+8% done
+2013-Dec-04 14:26:31 Структура базы данных (check_mysql_table_structure): Ok
+10% done
+2013-Dec-04 14:26:32 Структура базы данных (check_mysql_table_structure): Ok
+12% done
+2013-Dec-04 14:26:39 Структура базы данных (check_mysql_table_structure): Ok
+14% done
+2013-Dec-04 14:26:44 Структура базы данных (check_mysql_table_structure): Ok
+16% done
+2013-Dec-04 14:26:44 Структура базы данных (check_mysql_table_structure): Ok
+18% done
+2013-Dec-04 14:26:51 Структура базы данных (check_mysql_table_structure): Ok
+20% done
+2013-Dec-04 14:26:52 Структура базы данных (check_mysql_table_structure): Ok
+22% done
+2013-Dec-04 14:26:53 Структура базы данных (check_mysql_table_structure): Ok
+24% done
+2013-Dec-04 14:27:02 Структура базы данных (check_mysql_table_structure): Ok
+26% done
+2013-Dec-04 14:27:13 Структура базы данных (check_mysql_table_structure): Ok
+28% done
+2013-Dec-04 14:27:16 Структура базы данных (check_mysql_table_structure): Ok
+30% done
+2013-Dec-04 14:27:17 Структура базы данных (check_mysql_table_structure): Ok
+32% done
+2013-Dec-04 14:27:17 Структура базы данных (check_mysql_table_structure): Ok
+34% done
+2013-Dec-04 14:27:18 Структура базы данных (check_mysql_table_structure): Ok
+36% done
+2013-Dec-04 14:27:18 Структура базы данных (check_mysql_table_structure): Ok
+38% done
+2013-Dec-04 14:27:21 Структура базы данных (check_mysql_table_structure): Ok
+40% done
+2013-Dec-04 14:27:21 Структура базы данных (check_mysql_table_structure): Ok
+42% done
+2013-Dec-04 14:27:21 Структура базы данных (check_mysql_table_structure): Ok
+44% done
+2013-Dec-04 14:27:22 Структура базы данных (check_mysql_table_structure): Ok
+46% done
+2013-Dec-04 14:27:23 Структура базы данных (check_mysql_table_structure): Ok
+48% done
+2013-Dec-04 14:27:23 Структура базы данных (check_mysql_table_structure): Ok
+51% done
+2013-Dec-04 14:27:24 Структура базы данных (check_mysql_table_structure): Ok
+53% done
+2013-Dec-04 14:27:32 Структура базы данных (check_mysql_table_structure): Ok
+55% done
+2013-Dec-04 14:27:34 Структура базы данных (check_mysql_table_structure): Ok
+57% done
+2013-Dec-04 14:27:34 Структура базы данных (check_mysql_table_structure): Ok
+59% done
+2013-Dec-04 14:27:34 Структура базы данных (check_mysql_table_structure): Ok
+61% done
+2013-Dec-04 14:27:36 Структура базы данных (check_mysql_table_structure): Ok
+63% done
+2013-Dec-04 14:27:36 Структура базы данных (check_mysql_table_structure): Ok
+65% done
+2013-Dec-04 14:27:36 Структура базы данных (check_mysql_table_structure): Ok
+67% done
+2013-Dec-04 14:27:55 Структура базы данных (check_mysql_table_structure): Ok
+69% done
+2013-Dec-04 14:27:57 Структура базы данных (check_mysql_table_structure): Ok
+71% done
+2013-Dec-04 14:27:57 Структура базы данных (check_mysql_table_structure): Ok
+73% done
+2013-Dec-04 14:27:57 Структура базы данных (check_mysql_table_structure): Ok
+75% done
+2013-Dec-04 14:28:00 Структура базы данных (check_mysql_table_structure): Ok
+77% done
+2013-Dec-04 14:28:01 Структура базы данных (check_mysql_table_structure): Ok
+79% done
+2013-Dec-04 14:28:07 Структура базы данных (check_mysql_table_structure): Ok
+81% done
+2013-Dec-04 14:28:11 Структура базы данных (check_mysql_table_structure): Ok
+83% done
+2013-Dec-04 14:28:11 Структура базы данных (check_mysql_table_structure): Ok
+85% done
+2013-Dec-04 14:28:15 Структура базы данных (check_mysql_table_structure): Ok
+87% done
+2013-Dec-04 14:28:15 Структура базы данных (check_mysql_table_structure): Ok
+89% done
+2013-Dec-04 14:28:15 Структура базы данных (check_mysql_table_structure): Ok
+91% done
+2013-Dec-04 14:28:16 Структура базы данных (check_mysql_table_structure): Ok
+93% done
+2013-Dec-04 14:28:28 Структура базы данных (check_mysql_table_structure): Ok
+95% done
+2013-Dec-04 14:28:29 Структура базы данных (check_mysql_table_structure): Ok
+97% done
+2013-Dec-04 14:28:29 Структура базы данных (check_mysql_table_structure): Ok
+Успешно

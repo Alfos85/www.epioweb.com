@@ -1,0 +1,34 @@
+/* Left menu*/
+ul.left-menu{
+	list-style: none;
+	margin: 35px 0 25px 0; 
+	padding: 0;	
+	position: relative; /*IE bug*/
+}
+ul.left-menu a li{
+	padding: 0.8em 1em;
+	background: #fff;
+	margin-top: 1px;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+ul.left-menu a{
+	font-size: 1.2em;
+	color: #777;
+	font-weight: 400;
+	text-decoration: none;
+}
+ul.left-menu a:visited{
+	color: #555;
+}
+ul.left-menu a:hover{
+	color: #fff;
+}
+ul.left-menu li.selected {
+	padding: 0.8em 1em;
+	background: #777;
+	color: #eee;
+	font-size: 1.2em;
+	margin-top: 1px;
+}

@@ -1,0 +1,113 @@
+/* This style color AZURE GRAY #007ba7 */
+
+/* LINKS */
+a:link {
+	color: #007ba7;
+}
+a:visited {
+	color: #007ba7;
+}
+a:hover {
+	color: #009bd2;
+}
+/* HEADER */
+header {
+	border-top: solid 4px #007ba7;
+}
+hr {
+	background: #007ba7;
+}
+.hr {
+	background: #007ba7;
+}
+.header-hr-min-blu {
+	background: #007ba7;
+}
+/* HOME */
+h1.home-services-title {
+	color: #007ba7;
+}
+.hr-min {
+	background: #007ba7;
+}
+#video h1 {
+	color: #007ba7;
+}
+.video-overflow {
+	background: #007ba7 url(images/video-over-run.png) no-repeat center center;
+	border: dashed 1px #fff;
+}
+.video-over-button-in {
+	background: #007ba7;
+}
+.video-run-hover {
+	background: url(images/video-over-run-hover.png) no-repeat center center;
+}
+/* CONTENT */
+#content h1, .service-left h1, .service-right h1 {
+	color: #007ba7;
+}
+/* CONTACTS */
+.contacts-header-title {
+	color: #007ba7;
+}
+.request-block h2 {
+	color: #007ba7;
+}
+/* INCLUDES */
+.request-button {
+	border: solid 1px #007ba7;
+}
+.request-button:hover {
+	border: dashed 1px #fff;
+	background: #007ba7 url(images/bright-squares.png);
+}
+/* FORM */
+.submit-button {
+	background: #007ba7;
+    box-shadow: 0px 6px 0px #066f95;
+}
+.submit-button:active {
+	background: #0f9cce;
+    box-shadow: 0px 3px 0px #0988b6;
+}
+.submit-button:hover {
+	background: #0f9cce;
+    box-shadow: 0px 6px 0px #0988b6;
+}
+/* TOP MENU */
+#horizontal-multilevel-menu li:hover a.root-item, #horizontal-multilevel-menu li.jshover a.root-item{
+	color:#007ba7;
+}
+#horizontal-multilevel-menu li ul li:hover, #horizontal-multilevel-menu li ul li.jshover{
+	background: #007ba7;
+}
+/* LEFT MENU */
+ul.left-menu li:hover{
+	background: #007ba7;
+}
+/* CONTENT */
+#service-header, #solutions-header, #company-header {
+	background: url(images/carbon-fibre.png);
+}
+/* FOOTER */
+#footer {
+	background: url(images/wowen.png);
+	color: #eee;
+}
+#footer a:link, #footer a:visited {
+	color: #eee;
+}
+#footer a:hover {
+	color: #fff;
+}
+/* PORTFOLIO */
+.s-over {
+	background: rgba(0,123,167,0.4);
+}
+.s-over-more {
+	background: #007ba7;
+}
+#anonsus-nav a:hover {
+	color: #007ba7;
+}

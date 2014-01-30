@@ -1,0 +1,59 @@
+.liquid {
+	//background:#313b31 url('../images/bodybackground.png') repeat-y scroll 50% 0;
+	padding:10px 0;
+}
+.liquid .previous {
+	display:block;
+	height:126px;
+	width:62px;
+	background-image:url('/bitrix/templates/fava_turquoise_epioweb/images/liquidcarousel/previous.png');
+	float:left;
+	margin:0;
+	padding:0;
+}
+.liquid .next {
+	display:block;
+	height:126px;
+	width:62px;
+	background-image:url('/bitrix/templates/fava_turquoise_epioweb/images/liquidcarousel/next.png');
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+.liquid .next:hover{
+	cursor:pointer;
+}
+
+.liquid .previous:hover{
+	cursor:pointer;
+}
+
+.liquid ul li {
+	width:300px;
+	padding:0 2px;
+	margin:0;
+}
+.liquid ul li a img {
+	-moz-box-shadow: 0px 2px 3px #919191;
+   	-webkit-box-shadow: 0px 2px 3px #919191;
+   	box-shadow: 0px 2px 3px #919191;
+	max-height:150px;
+	width:300px;
+}
+
+@media (max-width:600px)
+{
+	.liquid ul li {
+	width:150px;
+	padding:0 2px;
+	margin:0;
+	}
+	.liquid ul li a img {
+	-moz-box-shadow: 0px 2px 3px #919191;
+   	-webkit-box-shadow: 0px 2px 3px #919191;
+   	box-shadow: 0px 2px 3px #919191;
+	height:100px;
+	width:150px;
+	}
+}
